@@ -8,3 +8,11 @@ nodes:
   image: kindest/node:v1.30.0
 - role: worker
   image: kindest/node:v1.30.0
+- role: worker
+  image: SAM/node:v1.30.0
+- role: worker
+  image: CDD/node:v1.30.0
+- role: worker
+  image: IFM/node:v1.30.0
+- role: worker
+  image: WLF/node:v1.30.0

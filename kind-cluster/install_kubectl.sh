@@ -16,5 +16,6 @@ rm -f kubectl
 
 echo "kubectl installation complete."
 
+
 #sed -i 's/targetPort: 80/targetPort: 8000/g' k8s-specifications/vote-service.yaml
-sed -i 's/port: 5000/port: 7000/g' k8s-specifications/vote-service.yaml
+sed -i 's/port: 5000/port: 8000/g' k8s-specifications/vote-service.yaml
