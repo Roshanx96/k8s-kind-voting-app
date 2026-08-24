@@ -19,3 +19,6 @@ echo "kubectl installation complete."
 
 #sed -i 's/targetPort: 80/targetPort: 8000/g' k8s-specifications/vote-service.yaml
 sed -i 's/port: 5000/port: 8000/g' k8s-specifications/vote-service.yaml
+
+#copy 
+cp k8s-specifications/vote-service.yaml k8s-specifications/vote-service.yaml.bak
