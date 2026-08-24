@@ -22,6 +22,8 @@ spec:
           value: 2022-postgres
         - name: POSTGRES_PASSWORD
           value: 2023-postgres
+        - name: POSTGRES_DB
+          value: 2022-voting
         ports:
         - containerPort: 5432
           name: postgres
