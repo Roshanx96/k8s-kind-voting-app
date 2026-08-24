@@ -5,12 +5,12 @@ metadata:
     app: vote
   name: vote
 spec:
-  type: NodePort
+  type: clusterIP
   ports:
   - name: "vote-service"
     port: 8000
     targetPort: 80000
-    nodePort: 31002
   selector:
-    app: bjp-vote
+    app: cjp-vote
+
   
