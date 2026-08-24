@@ -11,6 +11,6 @@ spec:
     port: 8000
     targetPort: 80000
   selector:
-    app: cjp-vote
-
+    app: bjp-vote
+    app: congress-vote
   
