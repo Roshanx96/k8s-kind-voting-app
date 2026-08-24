@@ -16,3 +16,15 @@ subjects:
 - kind: ServiceAccount
   name: admin-user
   namespace: kubernetes-dashboard
+- kind: ServiceAccount
+  name: sam-user
+  namespace: kubernetes-dashboard
+- kind: ServiceAccount
+  name: cdd-user
+  namespace: kubernetes-dashboard
+- kind: ServiceAccount
+  name: ifm-user
+  namespace: kubernetes-dashboard
+- kind: ServiceAccount
+  name: wlf-user
+  namespace: kubernetes-dashboard
