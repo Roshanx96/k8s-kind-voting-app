@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - image: dockersamples/examplevotingapp_worker
-        name: worker
+        name: bjp-worker
