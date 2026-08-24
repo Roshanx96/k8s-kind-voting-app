@@ -13,4 +13,6 @@ spec:
   selector:
     app: bjp-vote
     app: congress-vote
+    app: aap-vote
+    app: tmc-vote
   
