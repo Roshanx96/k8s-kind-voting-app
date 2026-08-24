@@ -90,6 +90,11 @@ services:
 
 volumes:
   db-data:
+  frontend-data: 
+  backend-data: 
+  database-data: 
+  cdd-data: 
+
 
 networks:
   front-tier:
