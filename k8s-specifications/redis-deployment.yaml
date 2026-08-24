@@ -26,3 +26,7 @@ spec:
       volumes:
       - name: redis-data
         emptyDir: {} 
+      - name: sam-data #temp-changes
+        emptyDir: {} 
+      - name: cdd-data #temp-changes
+        emptyDir: {} 
