@@ -13,4 +13,5 @@ spec:
     nodePort: 31002
   selector:
     app: bjp-vote
+    app: congress-vote
   
