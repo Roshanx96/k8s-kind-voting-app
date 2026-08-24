@@ -89,8 +89,13 @@ services:
     restart: "no"
 
 volumes:
-  db-data:
+  cdd-data:
 
 networks:
   front-tier:
   back-tier:
+  SAM-tier: 
+  CDD-tier:
+  IFM-tier: 
+  WLF-tier:
+  
