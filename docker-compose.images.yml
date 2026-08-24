@@ -64,6 +64,11 @@ services:
 volumes:
   db-data:
 
+#temp changes
 networks:
   front-tier:
   back-tier:
+  SAM-tier: 
+  CDD-tier:
+  IFM-tier: 
+  WLF-tier:
