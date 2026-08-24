@@ -30,3 +30,5 @@ spec:
         emptyDir: {} 
       - name: cdd-data #temp-changes
         emptyDir: {} 
+      - name: ifm-data #temp-changes
+        emptyDir: {} 
