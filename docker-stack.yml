@@ -48,6 +48,7 @@ services:
 networks:
   frontend:
   backend:
+  database:
 
 volumes:
   db-data:
